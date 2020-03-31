@@ -29,7 +29,7 @@ function moveDodgerLeft() {
   }
 }
 
-function moveDodgerright() {
+function moveDodgerRight() {
   let rightNumbers = dodger.style.right.replace("px", "");
   let right = parseInt(rightNumbers, 10);
  
