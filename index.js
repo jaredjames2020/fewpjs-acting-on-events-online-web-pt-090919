@@ -7,6 +7,9 @@ let dodger = document.getElementById("dodger");
   dodger.style.bottom = "100px";
   dodger.style.bottom = "0px";
   
+document.addEventListener("keydown", function(e) {
+  console.log(e.key);
+  });
   
 document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
